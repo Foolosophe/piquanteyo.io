@@ -1,15 +1,13 @@
-# P6 PIIQUANTE #
-This is the front end and back end server for Project 6 of the Web Developer path.
+# P6 PIQUANTE #
 
-### Back end Prerequisites ###
-You will need to have Node and `npm` installed locally on your machine.
+### Prérequis back-end ###
+Vous aurez besoin d'avoir Node et `npm` installés localement sur votre machine.
 
-Please create .env in the "back" folder with your account name in `account="xxx"`, your password in `mdp="xxx"` and your name database in `database="xxx"`. Check "app.js" if you need more informations. 
 
-### Back end Installation ###
-Clone this repo. 
-From the "back" folder of the project, run `npm install`. You can then run the server with `node index` or `nodemon index`. 
-Then "install dependencies" from package.json
-If you have any trouble, don't hesitate to check and update every package with `npm install -g npm-check-updates`.
-The back server should run on `localhost` with default port `3000`. If the server runs on another port for any reason, 
-this is printed to the console when the server starts, e.g. `Listening on port 3001`.# piquanteyo.io
+### Installation du back-end ###
+Clonez ce dépôt.
+Depuis le dossier "back" du projet, exécutez `npm install`. Vous pouvez ensuite exécuter le serveur avec `nodemon server` ou `node server`.
+Puis "installer les dépendances" de package.json
+Si vous rencontrez des problèmes, n'hésitez pas à vérifier et à mettre à jour chaque paquet avec `npm install -g npm-check-updates`.
+Le serveur arrière doit fonctionner sur `localhost` avec le port par défaut `3000`. Si le serveur s'exécute sur un autre port pour une raison quelconque,
+ceci est imprimé sur la console lorsque le serveur démarre, par ex. `Écoute sur le port 3001`.# piquanteyo.io
